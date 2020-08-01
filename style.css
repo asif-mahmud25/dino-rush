@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.background {
+    background-image: url("./images/bg.png");
+    height: 100vh;
+    background-position: center center; 
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dino {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url("./images/dino.png");
+    bottom: 60px;
+}
+
+.obstacle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url("./images/cactus.png");
+    bottom: 60px;
+}
+
+.ground {
+    height: 62px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color:#330900;
+    text-align: center;
+    line-height: 62px;
+}
+
+.ground span {
+    color: rgba(255, 255, 255, 0.33);
+    font-size: 12px;
+}
+
+.ui-text {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+#game-stat {
+    font-size: 64px;
+    text-align: center;
+    line-height: 1.6;
+    justify-self: center;
+    margin-bottom: auto;
+}
+
+#game-stat span {
+    font-size: 48px;
+}
+
+#score-stat {
+    justify-self: right;
+    margin-top: 30px;
+}
+
+
+
