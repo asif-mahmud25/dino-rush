@@ -4,7 +4,7 @@ Dino Rush is a fun game that can be played in the browser.
 
 ## Live Game
 
-Please checkout the live Game here [Dino Rush](#)
+Please checkout the live Game here [Dino Rush](https://asif-mahmud25.github.io/dino-rush/)
 
 ## Technologies Used
 

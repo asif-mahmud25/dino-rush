@@ -98,7 +98,7 @@ let generateObstacle = () => {
                     grid.removeChild(grid.lastChild);
                 }
 
-                gameStat.innerHTML = 'Game Over!<br><span>Reload to Play Again.</span>';
+                gameStat.innerHTML = 'Game Over!<br><span>Reload to Play Again</span>';
                 gameOverSound.play();
             }
             
